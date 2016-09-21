@@ -1,0 +1,6 @@
+echo "HELLO"
+
+#Basically, variable names are exapnded within double quotes, but not single quotes. If you do not need to refer to variables, single quotes are good to use as the results are more predictable.
+
+echo -n '$USER=' # -n option stops echo from breaking the line
+echo "$USER"
